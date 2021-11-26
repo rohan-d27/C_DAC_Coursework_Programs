@@ -1,0 +1,16 @@
+
+package Employee;
+
+public class MainEmployee {
+	
+	public static void main(String[] args) {
+		Employee ram=new Employee();
+		ram.setId(1);
+		ram.setName("Ram");
+		ram.setSalary(1000);
+		System.out.println(ram.empDetails());
+		System.out.println(ram.getId());
+		
+	}
+
+}

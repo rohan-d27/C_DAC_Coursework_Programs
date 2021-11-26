@@ -1,0 +1,1 @@
+/*Print Horizontal Histogram take input from user*/

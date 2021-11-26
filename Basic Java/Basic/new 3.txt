@@ -1,0 +1,19 @@
+/*
+1.	Accept 5 numbers in an array. Add each number & Display the addition.
+
+
+2.	Create a class Employee having member empId(int), empName(String),gender(char)
+
+1.Write parameter less constructor and initialize your variables
+
+2.Write display function which display the data.
+Also write TestMain class in the same file  which will create the object of class Employee in it and call the display() Function.
+
+11. Write a Java program to display addition of 1 to 10 integer numbers.
+
+12. Write a Java program to add all even number from 1 to 10 and print it.
+
+13. Write a Java program to accept a number from user and find sum of its digits.
+   Example if input is 123 output is 6  (means 1+2+3)
+
+14. Write a Java program to input a number and a digit and count & print number of times the d
