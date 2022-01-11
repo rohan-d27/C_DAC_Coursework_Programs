@@ -1,0 +1,28 @@
+@charset "ISO-8859-1";
+div {
+	font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
+	color: rgb(255, 255, 255);
+	border: 20px;
+	border-radius: 5px;
+	border-color: cornsilk;
+	background-color: rgb(70, 68, 67);
+	margin-top: 30px;
+	width: 60%;
+	height: 13%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.div {
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
+	color: rgb(255, 255, 255);
+	border: 20px;
+	border-radius: 5px;
+	border-color: cornsilk;
+	background-color: rgb(70, 68, 67);
+	width: 60%;
+	height: 15%;
+	padding-top: 10px;
+	padding-bottom: 2%;
+}
