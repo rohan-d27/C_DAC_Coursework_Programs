@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <script>
+    function doSomething(){
+        document.getElementById("first").innerHTML = "<p>This is added through javascript</p>"      
+        document.getElementById("second").innerHTML = "<b>This is yet another</b>"
+    }//end of doSomething
+
+    function clearall(){
+
+        document.getElementById("first").innerHTML=""
+        document.getElementById("second").innerHTML =""
+
+    }//end clearall
+
+
+    </script> 
+</head>
+<body>
+<div id="first">
+THIS IS THIS
+</div>
+
+<div id="second">
+
+</div>
+
+<pre>
+<button onclick="doSomething()" >Show Messages</button>
+
+<input type="button"  onclick="clearall()"  value="Clear Messages" />
+<!-- <button onclick="clearall()">Clear Messages</button> -->
+</pre>
+</body>
+</html>
