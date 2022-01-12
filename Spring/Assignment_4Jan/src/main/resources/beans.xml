@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->   
+      <bean class="study.beans.PersonBean" id="person" scope="prototype">
+      <property name="name" value="rohan"></property>
+    <property name="address" ref="address"></property>
+    <property name="cards" ref="cards"></property>
+   </bean>
+    
+     <bean class="study.beans.CardsBean" id="cards" scope="prototype">
+      <property name="aadhar" value="9877765654"></property>
+    <property name="pan" value="EH342344"></property>
+   <property name="passport" value="IN3434535"></property>
+    </bean>
+    
+    <bean class="study.beans.AddressBean" id="address">
+      <property name="country" value="India"></property>
+    <property name="state" value="Maharashtra"></property>
+    <property name="district" value="Pune"></property>
+      <property name="city" value="Pune"></property>
+   <property name="area" value="swargate"></property>
+   </bean>
+   
+
+</beans>
