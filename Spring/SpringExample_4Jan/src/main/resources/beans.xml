@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <!--<bean class="study.beans.MessageBean" id="first">-->
+      <bean class="study.beans.MessageBean" id="first" scope="prototype">
+      <property name="message" value="hello!"></property>
+    <property name="sender" value="rohan"></property>
+    <property name="contactDetails" ref="contact"></property>
+   </bean>
+    
+     <bean class="study.beans.MessageBean" id="singletonEx">
+      <property name="message" value="Solve"></property>  
+    <property name="sender" value="ram"></property>
+     <property name="contactDetails" ref="contact"></property>
+   </bean>
+    
+     <bean class="study.beans.ContactDetails" id="contact">
+      <property name="phoneno" value="9877765654"></property>
+    <property name="email" value="ram@gmail.com"></property>
+   <property name="address" ref="address"></property>
+    </bean>
+    
+    <bean class="study.beans.AddressBean" id="address">
+      <property name="country" value="India"></property>
+    <property name="state" value="maharashtra"></property>
+    <property name="district" value="Pune"></property>
+      <property name="city" value="Pune"></property>
+   <property name="area" value="swargate"></property>
+   </bean>
+   
+
+</beans>
