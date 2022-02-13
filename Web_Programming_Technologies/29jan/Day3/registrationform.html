@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+           input:invalid {
+          border: red dotted 3px;
+        }
+        input:valid{
+            border: green solid 5px;
+        }
+    </style>
+    <script>
+        /* firstname - required
+	2. lastname - required
+	3. uname - required and length between 5 to 10
+	3. password - required and 8 to 15 chars, must begin with a char and it can have chars and numbers and dash and underscore
+   
+	4. date of birth between 1-Jan-1920 to 1-Jan 2005 
+        */
+    </script>
+</head>
+<body>
+    <pre>
+   Enter firstname<input type="text" required >
+
+   Enter lastname <input type="text" required>
+
+   Enter the Username <input type="text" name="" id="" minlength="5" maxlength="10" required>
+
+   Enter password <input type="text" required pattern="^[A-Za-z]{1}[A-Za-z0-9_-]+$"  minlength="8" maxlength="15" >
+
+   Enter Date of Birth <input type="date" name="" id="" min="1920-01-01" max="2005-01-01">
+
+   <input type="button" value="OK">
+
+
+</pre>
+</body>
+</html>

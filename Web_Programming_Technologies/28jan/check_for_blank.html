@@ -1,0 +1,43 @@
+<script type="text/javascript">
+    function check_empty()
+    {
+      if(document.getElementById("tf").value=='')
+      {
+        alert("tf cannot be blank")
+        for(var i=0;i<10;i++)
+          console.log(i+"hello")
+
+      }
+      else {
+        var x = document.getElementById("tf").value
+        document.getElementById("tf").value=x.charAt(0).toUpperCase() + x.substring(1,x.length)
+        document.getElementById("myform").submit();
+
+      }
+    }
+
+function show()
+{
+//  alert("in here")
+   document.getElementById("p1").innerHTML= document.getElementById("tf").value
+
+}
+</script>
+
+<html>
+    <body>
+      <p id="dt"></p>
+      <script type="text/javascript">
+        var d = new Date();
+        var date = d.getDate() +"-"+ (d.getMonth()+1) +"-" + d.getFullYear()
+        document.getElementById("dt").innerHTML = "<b>"+date+"</b>"
+      </script>
+
+  <form  action="hello.html" id="myform">
+
+    <input type="text" id="tf" name="data" oninput="show()" onkeydown="if(event.keyCode==13){return false;}" />
+    <p id="p1">HERE</p>
+<input type="button" value="ok" onclick="check_empty()" />
+    </form>
+    </body>
+  </html>

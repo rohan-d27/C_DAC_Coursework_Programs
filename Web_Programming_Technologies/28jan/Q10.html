@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Q10</title>
+        <script>
+            function check_input(){
+                let input=document.getElementById("in").value;
+                if(document.getElementById("bold").checked==true)
+                {
+                    document.getElementById("display").innerHTML=`<b>${input}</b>`;
+                }
+                if(document.getElementById("italic").checked==true)
+                {
+                    document.getElementById("display").innerHTML=`<i>${input}</i>`;
+                }
+                if(document.getElementById("underline").checked==true)
+                {
+                    document.getElementById("display").innerHTML=`<u>${input}</u>`;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <form action="">
+            <input type="text" name="in" id="in" placeholder="Enter here"><br>
+            Bold:<input type="radio" name="bold" id="bold" value="1"><br>
+            italic:<input type="radio" name="italic" id="italic" value="2"><br>
+            underline:<input type="radio" name="underline" id="underline" value="3"><br>
+            <input type="button" value="SUBMIT" onclick="check_input()">
+        </form>
+        <div id="display"></div>
+    </body>
+</html>

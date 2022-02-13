@@ -1,0 +1,47 @@
+<html>
+<script>
+    function do1() {
+        console.log("here")
+        var name = document.forms["form1"]["studName"].value
+        var age = document.forms["form1"]["studAge"].value
+        console.log(name, age)
+        var allvalid = true
+        /* 
+                    if(name....)
+                    {
+        
+                    }
+                    else
+                    {
+                        allvalid = false
+                    } */
+        if (age < 10)
+            alert("incorrect age")
+        else {
+            document.forms["form1"].action = "one.html"
+            document.forms["form1"].submit()
+        }
+
+    }
+
+    function do2() {
+        document.forms["form1"].action = "g.html"
+        document.forms["form1"].submit()
+
+    }
+</script>
+
+<body>
+    <form name="form1">
+        Student Name :<input type="text" name="studName" />
+        <br>
+        Student Age :<input type="text" name="studAge" />
+        <br>
+        <input type="button" onclick="do1()" value="Action1"> </input><br>
+        <input type="button" onclick="do2()" value="Action2"> </input>
+
+
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+    <head>
+        <style>
+            .p {
+                display: none;
+            }
+        </style>
+        <title>Document</title>
+        <script src="../jquery-3.6.0.js"></script>
+        <script>
+            $(document).ready(() => {
+    
+                $('#box').click(() => {
+    
+                    $('.p').css("display", "block")
+                })
+            })
+        </script>
+    </head>
+    
+    <body>
+        <p class="p">Twinkle Twinkle little Star<br>
+        How I wonder what you are</p>
+        Show/Hide: <input type="checkbox" name="box" id="box">
+    
+    </body>
+    
+    </html>

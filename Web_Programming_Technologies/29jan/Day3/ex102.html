@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+   function f1(n1,n2,opt)
+   {
+       var arr=[]
+      for (let index = 1; index <=n2; index++) 
+      {
+         var res=n1*index;
+         arr.push(res)
+          
+      } 
+     if(opt=='1')
+     {
+       console.log(arr)
+     }
+     else if(opt=='2')
+     {
+        document.getElementById("show").innerText = arr
+     }
+   }
+   function f2(n1,n2,option)
+ {
+     var str=''
+     var result = 0
+     var final_str = ''
+     for(var i=1;i<=n2;i++)
+     {
+        result = n1 * i
+        str = n1 + "*" + i + "=" + result
+        if( option == 3)
+            console.log(str)
+        if( option == 4)
+            final_str = final_str + str + "<br>"
+
+     }//end of loop
+     if(final_str != '')
+        document.getElementById("show").innerHTML = final_str
+ }
+   function show()
+   {
+    var n1 = document.getElementById("n1").value
+     var n2 = document.getElementById("n2").value
+     var opt = document.getElementById("select1").value
+       if(opt=="2" ||opt=="1")
+       {
+           f1(n1,n2,parseInt(opt))
+       }
+       if(opt=="3" ||opt=="4")
+       {
+           f2(n1,n2,parseInt(opt))
+       }
+   }
+    </script>
+</head>
+<body>
+    <pre>
+        number: <input type="number" id="n1" />
+        range : <input type="number" id="n2"  />
+        <select id="select1">
+            <option value="1">console view coma format </option>
+            <option value="2">browser vier coma format</option>
+            <option value="3">console view table form </option>
+            <option value="4">browser vier table form</option>
+    
+        </select>
+  
+        <button onclick="show()">OK</button>
+        <p id="show"></p>
+        </pre>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="./calculator.js">
+
+    </script>
+  <script>
+      function dosomething()
+      {
+         let n1=document.getElementById("num1").value
+         let n2=document.getElementById("num2").value
+         let op=document.getElementById("operation").value
+         let str=`${n1} ${op} ${n2} = `
+         document.getElementById("out").innerHTML=str+calculate(n1,n2,op)
+      }
+  </script>
+</head>
+<body>
+    <pre>
+        Enter the Num1 <input type="text" name="" id="num1">
+
+        Enter the Num2 <input type="text" name="" id="num2">
+
+    </pre>
+         
+        <select name="operation" id="operation" onchange="dosomething()">
+            <option >--select--</option>
+            <option >+</option>
+            <option>-</option>  
+            <option >*</option>
+            <option >/</option>
+        </select>
+        <p id="out"></p>
+   
+</body>
+</html>

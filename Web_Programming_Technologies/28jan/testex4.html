@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <script type="text/javascript">
+      function check_names()
+      {
+         var fn = document.getElementById("fname").value
+         var ln = document.getElementById("lname").value
+
+         if(fn=="" || ln=="") alert("enter data in fields")
+         else{
+         formatted_fn = fn.charAt(0).toUpperCase() + fn.substring(1,fn.length).toLowerCase()
+         document.getElementById("fname").value = formatted_fn
+
+         formatted_ln = ln.charAt(0).toUpperCase() + ln.substring(1,ln.length).toLowerCase()
+         document.getElementById("lname").value = formatted_ln
+       }
+      }
+    </script>
+  </head>
+  <body>
+  fname:  <input type="text" id="fname" /> <br>
+  lname:  <input type="text" id="lname" /> <br>
+    <input type="button" value="ok" onclick="check_names()" />
+  </body>
+</html>

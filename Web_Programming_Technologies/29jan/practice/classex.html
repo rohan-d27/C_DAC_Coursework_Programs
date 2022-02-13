@@ -1,0 +1,86 @@
+<html>
+
+
+<script>
+    //class definition
+class Pen
+{
+
+  //this = ADDR of the current object
+ /*
+  constructor()
+ {
+   this.color="blue"
+   this.cost=30
+ }*/
+
+//parameterized constructor
+ constructor(c,co)
+ {
+
+    //one copy per object
+    this.color =c
+    this.cost =co
+
+    //one copy 
+    Pen.brand = "camlin"
+ }
+
+
+
+
+ //this = calling object
+ //behavior , function
+ showInfo()
+ {
+     console.log("the color of the pen is " +this.color+" the cost of the pen is "+this.cost)
+ }
+
+
+
+}
+//object creation
+var mypen = new Pen("purple",40)  //constructor is called
+console.log(mypen.color)
+mypen.color ="green"
+console.log(mypen.color , Pen.brand)
+
+var yourpen = new Pen("red",20) //constructor is called
+console.log(yourpen.color ,Pen.brand)
+
+mypen.showInfo()   //mypen is the CALLING object
+yourpen.showInfo() //yourpen is the CALLING object
+
+var arr=[]
+function addToArray()
+{
+    var p1 = new Pen("blue",20)
+    arr.push(p1)
+    arr.push(new Pen("yellow",30))
+    arr.push({'color':"red",'cost':10})
+    arr.push(new Pen("green",50))
+
+    
+}
+
+function showArray()
+{
+    for(var i=0;i<arr.length;i++)
+        console.log(arr[i])
+
+}
+
+
+</script>
+
+<body>
+    <button onclick="addToArray()">add</button>
+    <button onclick="showArray()">show</button>
+</body>
+
+
+
+
+
+
+</html>

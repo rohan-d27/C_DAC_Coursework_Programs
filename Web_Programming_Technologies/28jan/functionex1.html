@@ -1,0 +1,147 @@
+<html>
+    <script>
+
+        
+        function f1()
+        {
+            console.log('f1 called without parameters')
+        }
+
+        f1()
+
+        function f2(s)
+        {
+            console.log("f2 is  successfully called")
+            if(typeof(s?.valueOf())=="string" )
+            console.log(s.toUpperCase())
+            else
+            console.log("unsuitable parameter")
+        }
+        
+        f2(new String('ppp'))
+        f2('kkk','ooo')
+        f2(50)
+        f2()
+
+
+    
+        function f3(a=1,b=2)  //default parameters
+        {
+            console.log(a+b)
+        }
+
+        f3()
+        f3(20)
+        f3(20,30)
+        f3(20,30,40)
+
+
+        
+        function f4(...a)  //Rest parameter , variable number of args
+        {
+            var sum = 0
+            while(a.length > 0 )
+            {
+                var x = a.pop()
+                console.log(x)
+               // sum +=a[i]
+                sum+= x
+
+            }
+
+            console.log("sum="+sum)
+        }
+
+        f4()
+        f4(12)
+        f4(10,20,30,40,50,60,1)
+
+      
+     // function f5(...a,p=5) //not allowed Rest MUST be last formal parameter
+     function f5(p=5,...a)
+      {
+            for(var i=0;i<a.length;i++)
+            {
+                console.log(p*a[i])
+            }
+
+      }
+
+      f5(10)
+      f5(10,1,2,3)
+       f5('10','20','30')
+
+
+//how to pass a function to another function
+        function f6(p,f)
+        {    if(p<45)
+                console.log("hi")
+            else
+                f(p)
+        }
+        f6(34)
+        function temp(g)
+        { 
+            console.log(`you passed ${g}`)
+        }
+        f6(49,temp)
+
+        f6(78,(k)=>{console.log(`half of ${k} is ${k/2}`)})
+
+        let square = (t)=>{console.log(`the square of ${t} is ${t*t}`)}
+        f6(50,square)
+
+        f6(51,function(g){
+            console.log(`you have passed ${g} that is greater than 45`)
+        })
+
+
+        
+        function f7(language)
+        {
+            function greet()
+            { 
+                console.log("welcome")
+            }
+            if(language == 'EN')
+              return greet
+
+            let g = function(){ console.log("Namaste")}
+            if(language == 'HI')
+              return g
+           
+            if(language == 'TM')
+              return function(){ console.log("Vannakam")}    
+
+            if(language=='JP')
+                return ()=>{console.log("Konnichiva")}
+        }
+        console.log(f7('HI'))
+        var result = f7('TM')
+        result()
+        f7('JP')()
+
+
+
+
+
+
+
+
+
+
+
+
+ /*
+        //f1()
+/*         f2('himalayan bullet')
+        f2()
+        f3()
+        f3(20,30)
+        f3(20)
+        f4(10,20,30,40,50)
+        f5(10,6,7,8)
+        f6(80,(a)=>{console.log(a+a)})
+        f7('HI')()
+ */    </script>
+</html>

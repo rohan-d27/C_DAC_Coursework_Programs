@@ -1,0 +1,131 @@
+<html>
+    <head>
+        <script>
+            function onLoad123()
+            {
+                var d = new Date()
+                var displayDate = d.getDate()+"-"+d.getMonth()+1+"-"+d.getFullYear();
+                document.getElementById("date1").innerHTML=`date : ${displayDate}`
+            }
+            
+        </script>
+        <style>
+            .navbar
+            {
+                overflow: auto;
+                background-color: rgb(95, 194, 73);
+            }
+            .menu
+            {
+                float:left;
+                color:blue;
+                font-size: 20px;
+                padding: 14px 16px;
+            }
+            .menutitle
+            {
+                float:inherit;
+                color:inherit;
+                width:inherit;
+                font-size: inherit;
+                padding: inherit;
+            }
+            .menuitems
+            {
+                float:none;
+                position:absolute;
+                display:none;
+            }
+
+            .menuitems a
+            {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .navbar .menu:hover .menutitle
+            {
+                background-color: aqua;
+            }
+
+            .menuitems::before
+            {
+                content: "\a \a";
+                white-space: pre;   
+            }
+
+          
+            .navbar .menu .menuitems a:hover
+            {
+                background-color: rgb(165, 42, 110);
+            }
+            .navbar .menu:hover .menuitems
+            {
+                display: block;
+            }
+
+            .navbar .rightcorner
+            {
+                float:right;
+                color: black;
+                text-align: center;
+                border: 5px solid black;
+                font-size: 20px;
+                padding: 14px 16px;
+                
+            }
+
+        </style>
+    </head>
+    <body onload="onLoad123()">
+        <div class ="navbar">
+            <div class ="menu">
+                <span class="menutitle">Menu1</span>
+                <div class="menuitems">
+                    <a href="f.html" target="below">item1</a>
+                    <a href="g.html" target="below">item2</a>
+                    <a href="../check_for_blank.html" target="below"> item3</a>
+                </div>
+            </div>
+            <div class ="menu">
+                <span class="menutitle">Menu2</span>
+                <div class="menuitems">
+                    <a  href="#">item1</a>
+                    <a href="#">item2</a>
+                    <a href="#">item3</a>
+                </div>
+            </div>
+            <div class ="menu">
+                <span class="menutitle">Menu3</span>
+                <div class="menuitems">
+                    <a  href="#">item1</a>
+                    <a href="#">item2</a>
+                    <a href="#">item3</a>
+                </div>
+            </div>
+            <div class ="menu">
+                <span class="menutitle">Menu4</span>
+                <div class="menuitems">
+                    <a  href="#">item1</a>
+                    <a href="#">item2</a>
+                    <a href="#">item3</a>
+                </div>
+            </div>
+            <div class="rightcorner" id="date1">
+                date:
+            </div>
+        </div>
+
+        <br><br><br>
+       
+        <iframe name="below" src="" width="100%"  
+        height="100%" frameBorder="0"></iframe>
+
+
+
+
+    </body>
+</html>

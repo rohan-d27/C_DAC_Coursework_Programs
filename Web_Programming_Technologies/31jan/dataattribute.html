@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>data demo</title>
+  <style>
+    div {
+      color: blue;
+    }
+    span {
+      color: red;
+    }
+  </style>
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+  <script>
+    $("document").ready(() => {
+      $("div").data("test", { size: 16, food: "pizza!" });
+      $("span").first().text($("div").data("test").size);
+      $("span").last().text($("div").data("test").food);a
+
+      console.log($("#d1").data("role"))
+      console.log($("#d1").data("lastValue"))
+      console.log($("#d1").data("hidden"))
+      console.log($("#d1").data("options").name)
+    })
+  </script>
+
+</head>
+
+<body>
+
+  <div>
+    The values stored were
+    <span></span>
+    and
+    <span></span>
+  </div>
+
+  <div id="d1" data-role="page" data-last-value="43" data-hidden="true" data-options='{"name":"John"}'></div>
+
+
+
+
+</body>
+
+</html>

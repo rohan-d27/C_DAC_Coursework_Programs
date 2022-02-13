@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <script src="jquery-3.6.0.js"></script>
+</head>
+<script>
+    $(document).ready(function () {
+        for (var i = 1; i <= 10; i++)
+            $("#s1").append(`<option value=${i}>text of option number ${i}</option>`)
+
+        $("#b1").click(function () {
+            $("#d1").html("")
+            let v = $("#s1").val();
+            console.log(v)
+            for (var i = 0; i < v; i++) {
+                console.log(i)
+                $("#d1").append('<p>Hello</p>')
+            }
+        });
+    });
+</script>
+</head>
+
+<body>
+    <select id="s1"></select>
+    <br>
+    <div id="d1"></div>
+    <button id="b1">Click me </button>
+</body>
+
+</html>

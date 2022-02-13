@@ -1,0 +1,78 @@
+<htm>
+<body>
+    <pre>
+    number: <input type="number" id="n1" />
+    range : <input type="number" id="n2"  />
+    <select id="select1">
+        <option value="1">console view coma format </option>
+        <option value="2">browser vier coma format</option>
+        <option value="3">console view table form </option>
+        <option value="4">browser vier table form</option>
+
+    </select>
+    <button onclick="show()">OK</button>
+    <span id="show"></span>
+</pre>
+
+</body>
+<script>
+ function f1(n1,n2,option)
+ {
+     console.log(option)
+     //output if n1=4 and n2 = 8  }}  4,5,6,7
+     var arr=[]
+     for(var i=1;i<n2;i++)
+     {
+         var result = n1 * i
+        arr.push(result)
+     }
+     if(option ==1)
+     console.log(arr)
+     if(option==2)
+     document.getElementById("show").innerText = arr
+ }
+
+
+ function f2(n1,n2,option)
+ {
+     var str=''
+     var result = 0
+     var final_str = ''
+     for(var i=1;i<=n2;i++)
+     {
+        result = n1 * i
+        str = n1 + "*" + i + "=" + result
+        if( option == 3)
+            console.log(str)
+        if( option == 4)
+            final_str = final_str + str + "<br>"
+
+     }//end of loop
+     if(final_str != '')
+        document.getElementById("show").innerHTML = final_str
+ }
+
+// f2(7,12)
+ //f1(4,8)
+
+ function show()
+ {
+     var n1 = document.getElementById("n1").value
+     var n2 = document.getElementById("n2").value
+     var option = document.getElementById("select1").value
+
+    if( (option == "1") || (option == "2"))
+        f1(n1,n2,option)
+    
+    if( (option == "3") || (option == "4"))
+        f2(n1,n2,option)
+    
+
+
+
+
+ }
+
+</script>
+
+</htm>
