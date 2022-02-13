@@ -1,0 +1,58 @@
+.navbar {
+    overflow: auto;
+    background-color: black;
+}
+
+.menu {
+    float: left;
+    color: bisque;
+    font-size: 20px;
+    padding: 14px 16px;
+}
+
+.menuitem {
+    float: none;
+    position: absolute;
+    display: none;
+}
+
+.menuitem a {
+    color: black;
+    float: none;
+    padding: 12px 15px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    background-color: burlywood;
+}
+
+.menuitem::before {
+    content: "\a";
+    white-space: pre;
+}
+
+.navbar .menu:hover .menuetitle {
+    background-color: coral;
+}
+
+.navbar .menu .menuitem a:hover {
+    background-color: cornflowerblue;
+}
+
+.navbar .menu:hover .menuitem {
+    display: block;
+}
+
+.frame {
+    width: 100%;
+    height: 1000px;
+}
+
+.date {
+    float: right;
+    padding: auto;
+    margin-top: 10px;
+    margin-right: 20px;
+    border: 2pt solid yellow;
+    color: aliceblue;
+}

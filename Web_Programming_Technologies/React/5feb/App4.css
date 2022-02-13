@@ -1,0 +1,30 @@
+.child{
+    color: rgb(246, 102, 6) ;
+    border: rgb(241, 226, 7) solid 5px;
+    margin-top: 10px;
+   
+
+}
+.add
+{
+    color: rgb(69, 189, 53) ;
+    border: rgb(133, 19, 240) solid 5px;
+    margin-top: 10px;
+
+}
+.table
+{
+    color: rgb(246, 90, 0) ;
+    border: rgb(3, 3, 3) thin 5px;
+    margin-top: 10px;
+   
+}
+.c1
+{
+    size: 10 px;
+    width: 70px;
+    border: rgb(255, 255, 255) solid;
+    padding: 4px 4px 4px;
+  text-align: center;
+  
+}
