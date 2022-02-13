@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+    <script>
+        function welcomeMessage()
+        {
+            var name = document.getElementById("t1").value
+            var n1 = name //parseInt(name)
+            if(name == "")
+            document.getElementById("para1").innerHTML = "Please enter name"
+            else
+            document.getElementById("para1").innerHTML = "<i>Welcome "+name+"  </i>"
+            //document.getElementById("para1").innerText = n1 + n1
+        }
+
+        function clearMessage()
+        {
+            document.getElementById("para1").innerHTML = ""
+            document.getElementById("t1").value =""
+        }
+    </script> 
+</head>
+<body>
+<pre>
+Enter Name : <input id="t1" type="text" />
+<button onclick="welcomeMessage()" >Welcome</button>
+<button onclick="clearMessage()" >Clear</button>
+</pre>
+<p id="para1">
+
+</p>
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+<html>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script>
+    $(document).ready(() => {
+
+        $('#get').click(() => {
+            var url = `/product/showall`
+            $.ajax(
+                {
+                    url: url,
+                    type: 'GET',
+                    success: function (responseData) {
+                        var arr = responseData
+
+                        $('#d1').html('')
+                       var tab = $("<select></select>")
+                        for (var i = 0; i < arr.length; i++) {
+                        	tab.append(`<option value=${(arr[i].name)}>${(arr[i].name )}</option>`)
+                        }
+                        $('#d1').append(tab)
+
+
+                    }//end of success
+                }//parameter
+
+            )//end of ajax call
+        })
+    })
+</script>
+
+<body>
+
+
+	<button id="get">GET</button>
+	<div id="d1"></div>
+</body>
+
+</html>

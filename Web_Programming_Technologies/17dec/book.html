@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Page Title</title>
+</head>
+<style>
+div {
+	font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
+	color: rgb(255, 255, 255);
+	border: 20px;
+	border-radius: 5px;
+	border-color: cornsilk;
+	background-color: rgb(70, 68, 67);
+	margin-top: 30px;
+	width: 60%;
+	height: 90%;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.div {
+	font-size: 20px;
+	font-family: 'Times New Roman', Times, serif, Arial, sans-serif;
+	color: rgb(255, 255, 255);
+	border: 20px;
+	border-radius: 5px;
+	border-color: cornsilk;
+	background-color: rgb(70, 68, 67);
+	width: 60%;
+	height: 90%;
+	padding-top: 10px;
+	padding-bottom: 2%;
+}
+</style>
+<body>
+	<center>
+		<div>
+			<h1> <i>Add Book</i> </h1>
+		</div>
+	</center>
+	<center>
+	<form action="book2" method="post" >
+		<div class="div">
+			Book ID: <input type="text" name="bkid"> 
+			<br> 
+			Book Name: <input type="text" name="bknm">  <br>
+            Book Cost: <input type="number" name="bkck"> 
+			<br> 
+			<input type="submit" value="Insert">
+			&nbsp; 
+			<input type="reset" value="Reset">
+		</div></form>
+	</center>
+</body>
+</html>

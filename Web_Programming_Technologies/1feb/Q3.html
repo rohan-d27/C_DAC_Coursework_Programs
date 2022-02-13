@@ -1,0 +1,42 @@
+<html>
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script>
+    $(document).ready(() => {
+
+        $('#add').click(() => {
+            var id=$('#id1').val();
+            var name=$('#nm').val();
+            var cost=$('#cs').val();
+            var description=$('#ds').val();
+            var expirydate=$('#ed').val();
+            var url = `/product/add/${id}/${name}/${cost}/${description}/${expirydate}`
+            $.ajax(
+                {
+                    url: url,
+                    type: 'POST',
+                    success: function (responseData) {
+                        $('#d1').html(responseData)
+
+                       
+
+
+                    }//end of success
+                }//parameter
+
+            )//end of ajax call
+        })
+    })
+</script>
+
+<body>
+    id:<input type="number" id="id1"><br>
+    name: <input type="text" id="nm"><br>
+    cost: <input type="number" id="cs"><br>
+    description: <input type="text" id="ds"><br>
+    expirydate: <input type="text" id="ed"><br> 
+	<button id="add">ADD</button>
+	<div id="d1"></div>
+</body>
+
+</html>

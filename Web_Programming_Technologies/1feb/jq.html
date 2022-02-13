@@ -1,0 +1,56 @@
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.js"></script>
+<script>
+	$(document).ready(() => {
+		$('#calc').click(() => {
+			var n1 = $('#n1').val()
+			var n2 = $('#n2').val()
+			var url = `/maths/add/${n1}/${n2}`
+			$.ajax(
+				{
+					url: url,
+					type: 'POST',
+					success: function (respData) {
+						$('#d1').html(`<p>${respData}</p>`)
+					}
+				}//parameter
+			)//end of ajax call 	
+		})
+
+		$('#get').click(() => {
+			$.ajax(
+				{
+					url: '/book/allbooks',
+					type: 'GET',
+					success: function (responseData) {
+						var arr = responseData
+
+						$('#d1').html('')
+						var tab = $("<table border='1'></table>")
+						for (var i = 0; i < arr.length; i++) {
+							tab.append(`<tr><td>${arr[i].bookId}</td><td>${arr[i].bookCost}</td><td>${arr[i].bookName}</td></tr>`)
+						}
+						$('#d1').append(tab)
+
+
+					}//end of success
+				}//end of ajax parameter
+			)//end of ajax call
+		}//end of callback for click
+		)//end of click
+	})//end of ready
+</script>
+
+<body>
+	<div>
+		<p>n1= <input type=number id='n1' /></p>
+		<p>n2 =<input type=number id='n2' /></p>
+		<p><button id='calc'>calc</button></p>
+	</div>
+
+	<button id="get">GET</button>
+	<div id="d1">
+	</div>
+</body>
+
+</html>
