@@ -1,0 +1,7 @@
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\17feb\Solution17feb\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\17feb\Solution17feb\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\17feb\Solution17feb\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\17feb\Solution17feb\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\17feb\Solution17feb\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\17feb\Solution17feb\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\17feb\Solution17feb\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.AssemblyReference.cache
