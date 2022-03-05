@@ -1,0 +1,5 @@
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\18feb\Solution18feb\IndexerClassLibrary1\bin\Debug\IndexerClassLibrary1.dll
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\18feb\Solution18feb\IndexerClassLibrary1\bin\Debug\IndexerClassLibrary1.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\18feb\Solution18feb\IndexerClassLibrary1\obj\Debug\IndexerClassLibrary1.csproj.CoreCompileInputs.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\18feb\Solution18feb\IndexerClassLibrary1\obj\Debug\IndexerClassLibrary1.dll
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\18feb\Solution18feb\IndexerClassLibrary1\obj\Debug\IndexerClassLibrary1.pdb
