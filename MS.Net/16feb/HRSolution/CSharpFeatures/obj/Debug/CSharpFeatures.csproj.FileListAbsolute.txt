@@ -1,0 +1,7 @@
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\CSharpFeatures\obj\Debug\CSharpFeatures.csproj.AssemblyReference.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\CSharpFeatures\obj\Debug\CSharpFeatures.csproj.CoreCompileInputs.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\CSharpFeatures\bin\Debug\CSharpFeatures.exe.config
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\CSharpFeatures\bin\Debug\CSharpFeatures.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\CSharpFeatures\bin\Debug\CSharpFeatures.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\CSharpFeatures\obj\Debug\CSharpFeatures.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\CSharpFeatures\obj\Debug\CSharpFeatures.pdb

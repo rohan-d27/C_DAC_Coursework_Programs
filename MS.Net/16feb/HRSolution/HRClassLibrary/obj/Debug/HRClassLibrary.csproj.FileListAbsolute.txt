@@ -1,0 +1,6 @@
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\HRClassLibrary\bin\Debug\HRClassLibrary.dll
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\HRClassLibrary\bin\Debug\HRClassLibrary.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\HRClassLibrary\obj\Debug\HRClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\HRClassLibrary\obj\Debug\HRClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\HRClassLibrary\obj\Debug\HRClassLibrary.dll
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\16feb\HRSolution\HRClassLibrary\obj\Debug\HRClassLibrary.pdb
