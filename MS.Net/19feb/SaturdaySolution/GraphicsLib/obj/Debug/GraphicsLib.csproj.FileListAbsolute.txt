@@ -1,0 +1,12 @@
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_4\DotnetTypes\GraphicsLib\bin\Debug\GraphicsLib.dll
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_4\DotnetTypes\GraphicsLib\bin\Debug\GraphicsLib.pdb
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_4\DotnetTypes\GraphicsLib\obj\Debug\GraphicsLib.csproj.AssemblyReference.cache
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_4\DotnetTypes\GraphicsLib\obj\Debug\GraphicsLib.csproj.CoreCompileInputs.cache
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_4\DotnetTypes\GraphicsLib\obj\Debug\GraphicsLib.dll
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_4\DotnetTypes\GraphicsLib\obj\Debug\GraphicsLib.pdb
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GraphicsLib\bin\Debug\GraphicsLib.dll
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GraphicsLib\bin\Debug\GraphicsLib.pdb
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GraphicsLib\obj\Debug\GraphicsLib.csproj.AssemblyReference.cache
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GraphicsLib\obj\Debug\GraphicsLib.csproj.CoreCompileInputs.cache
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GraphicsLib\obj\Debug\GraphicsLib.dll
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GraphicsLib\obj\Debug\GraphicsLib.pdb

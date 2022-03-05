@@ -1,0 +1,14 @@
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GCDemoApp\bin\Debug\GCDemoApp.exe.config
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GCDemoApp\bin\Debug\GCDemoApp.exe
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GCDemoApp\bin\Debug\GCDemoApp.pdb
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GCDemoApp\obj\Debug\GCDemoApp.csproj.AssemblyReference.cache
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GCDemoApp\obj\Debug\GCDemoApp.csproj.CoreCompileInputs.cache
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GCDemoApp\obj\Debug\GCDemoApp.exe
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\GCDemoApp\obj\Debug\GCDemoApp.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\GCDemoApp\bin\Debug\GCDemoApp.exe.config
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\GCDemoApp\bin\Debug\GCDemoApp.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\GCDemoApp\bin\Debug\GCDemoApp.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\GCDemoApp\obj\Debug\GCDemoApp.csproj.AssemblyReference.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\GCDemoApp\obj\Debug\GCDemoApp.csproj.CoreCompileInputs.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\GCDemoApp\obj\Debug\GCDemoApp.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\GCDemoApp\obj\Debug\GCDemoApp.pdb

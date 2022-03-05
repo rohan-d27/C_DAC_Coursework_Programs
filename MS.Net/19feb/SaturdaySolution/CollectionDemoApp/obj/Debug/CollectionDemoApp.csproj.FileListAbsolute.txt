@@ -1,0 +1,14 @@
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\CollectionDemoApp\bin\Debug\CollectionDemoApp.exe.config
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\CollectionDemoApp\bin\Debug\CollectionDemoApp.exe
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\CollectionDemoApp\bin\Debug\CollectionDemoApp.pdb
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\CollectionDemoApp\obj\Debug\CollectionDemoApp.csproj.AssemblyReference.cache
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\CollectionDemoApp\obj\Debug\CollectionDemoApp.csproj.CoreCompileInputs.cache
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\CollectionDemoApp\obj\Debug\CollectionDemoApp.exe
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_6\SaturdaySolution\CollectionDemoApp\obj\Debug\CollectionDemoApp.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\CollectionDemoApp\bin\Debug\CollectionDemoApp.exe.config
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\CollectionDemoApp\bin\Debug\CollectionDemoApp.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\CollectionDemoApp\bin\Debug\CollectionDemoApp.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\CollectionDemoApp\obj\Debug\CollectionDemoApp.csproj.AssemblyReference.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\CollectionDemoApp\obj\Debug\CollectionDemoApp.csproj.CoreCompileInputs.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\CollectionDemoApp\obj\Debug\CollectionDemoApp.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\CollectionDemoApp\obj\Debug\CollectionDemoApp.pdb

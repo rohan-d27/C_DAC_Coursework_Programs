@@ -1,0 +1,6 @@
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\ClonningApp\bin\Debug\ClonningApp.exe.config
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\ClonningApp\bin\Debug\ClonningApp.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\ClonningApp\bin\Debug\ClonningApp.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\ClonningApp\obj\Debug\ClonningApp.csproj.CoreCompileInputs.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\ClonningApp\obj\Debug\ClonningApp.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\19feb\SaturdaySolution\ClonningApp\obj\Debug\ClonningApp.pdb
