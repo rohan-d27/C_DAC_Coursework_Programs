@@ -1,0 +1,12 @@
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_7\BusinessSolution\BuiltInAnnotationsApp\bin\Debug\BuiltInAnnotationsApp.exe.config
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_7\BusinessSolution\BuiltInAnnotationsApp\bin\Debug\BuiltInAnnotationsApp.exe
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_7\BusinessSolution\BuiltInAnnotationsApp\bin\Debug\BuiltInAnnotationsApp.pdb
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_7\BusinessSolution\BuiltInAnnotationsApp\obj\Debug\BuiltInAnnotationsApp.csproj.CoreCompileInputs.cache
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_7\BusinessSolution\BuiltInAnnotationsApp\obj\Debug\BuiltInAnnotationsApp.exe
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_7\BusinessSolution\BuiltInAnnotationsApp\obj\Debug\BuiltInAnnotationsApp.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\21feb\BusinessSolution\BuiltInAnnotationsApp\bin\Debug\BuiltInAnnotationsApp.exe.config
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\21feb\BusinessSolution\BuiltInAnnotationsApp\bin\Debug\BuiltInAnnotationsApp.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\21feb\BusinessSolution\BuiltInAnnotationsApp\bin\Debug\BuiltInAnnotationsApp.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\21feb\BusinessSolution\BuiltInAnnotationsApp\obj\Debug\BuiltInAnnotationsApp.csproj.CoreCompileInputs.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\21feb\BusinessSolution\BuiltInAnnotationsApp\obj\Debug\BuiltInAnnotationsApp.exe
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\21feb\BusinessSolution\BuiltInAnnotationsApp\obj\Debug\BuiltInAnnotationsApp.pdb
