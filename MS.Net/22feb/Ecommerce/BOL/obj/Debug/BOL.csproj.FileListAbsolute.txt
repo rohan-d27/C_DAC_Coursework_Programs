@@ -1,0 +1,12 @@
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_8\ECommerce\BOL\bin\Debug\BOL.dll
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_8\ECommerce\BOL\bin\Debug\BOL.pdb
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_8\ECommerce\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_8\ECommerce\BOL\obj\Debug\BOL.dll
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_8\ECommerce\BOL\obj\Debug\BOL.pdb
+D:\RaviT\DAC\PGDAC\DAC\IETDACSept21\Day_8\ECommerce\BOL\obj\Debug\BOL.csproj.AssemblyReference.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\22feb\ECommerce\BOL\bin\Debug\BOL.dll
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\22feb\ECommerce\BOL\bin\Debug\BOL.pdb
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\22feb\ECommerce\BOL\obj\Debug\BOL.csproj.AssemblyReference.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\22feb\ECommerce\BOL\obj\Debug\BOL.csproj.CoreCompileInputs.cache
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\22feb\ECommerce\BOL\obj\Debug\BOL.dll
+C:\Users\Dharurkar\Desktop\MS_Dot_Net\22feb\ECommerce\BOL\obj\Debug\BOL.pdb
