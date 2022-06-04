@@ -1,7 +1,8 @@
 # CDAC PG-DAC Coursework
 This repository contains all the coursework I did during my PG-DAC (Post Graduate Diploma in Advanced Computing) course in C-DAC.
+Duration: 6 months Sep21-Apr22
 
-# Modules:
+# Course Modules :
 
 • Basic Programming Concepts
 
